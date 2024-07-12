@@ -10,9 +10,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <style>
-
         /* index design */
-
         .container,
         .row,
         .h2 {
@@ -26,23 +24,24 @@
 
         .login-form-1 {
             padding: 5%;
+            background: #FFA500; /* Orange for user login */
             box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
         }
 
         .login-form-1 h3 {
             text-align: center;
-            color: #333;
+            color: #fff; /* White text */
         }
 
         .login-form-2 {
             padding: 5%;
-            background: #0062cc;
+            background: #28a745; /* Green for admin login */
             box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
         }
 
         .login-form-2 h3 {
             text-align: center;
-            color: #fff;
+            color: #fff; /* White text */
         }
 
         .login-container form {
@@ -60,13 +59,13 @@
         .login-form-1 .btnSubmit {
             font-weight: 600;
             color: #fff;
-            background-color: #0062cc;
+            background-color: #333; /* Dark background for contrast */
         }
 
         .login-form-2 .btnSubmit {
             font-weight: 600;
-            color: #0062cc;
-            background-color: #fff;
+            color: #fff;
+            background-color: #333; /* Dark background for contrast */
         }
 
         .login-form-2 .ForgetPwd {
@@ -76,7 +75,7 @@
         }
 
         .login-form-1 .ForgetPwd {
-            color: #0062cc;
+            color: #fff;
             font-weight: 600;
             text-decoration: none;
         }
@@ -92,7 +91,6 @@
 
  $ademailmsg="";
  $adpasdmsg="";
-
 
  if(!empty($_REQUEST['ademailmsg'])){
     $ademailmsg=$_REQUEST['ademailmsg'];
