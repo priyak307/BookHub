@@ -7,9 +7,7 @@
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Preview](#preview)
 
 ## Introduction
 
@@ -43,4 +41,31 @@
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/BookHub.git
+   git clone https://github.com/priyak307/BookHub.git
+2. **Set Up the Database**:
+   - Open phpMyAdmin and create a new database named `library_management`.
+   - Import the provided SQL file (`library_management.sql`) into the database.
+3. **Configure the project**:
+   - Navigate to the project directory and place it inside the `htdocs` folder of XAMPP.
+   - Open the project and configure the database connection in the `db.php` file.
+   ```php
+   <?php
+    class db{
+    protected $connection;
+    function setconnection(){
+      try{
+        $this->connection=new PDO("mysql:host=localhost; dbname=library_managment","root","");
+        echo "Done";
+    }catch(PDOException $e){
+        echo "Error";
+    }
+    }
+    }
+4. **Start the Server**:
+   - Launch XAMPP and start the Apache and MySQL services.
+   - Open a web browser and go to `http://localhost/BookHub` to access the platform.
+
+### Usage
+
+- **Admin Panel:** Log in with admin credentials to access the dashboard and manage books and users.
+- **User Features:** Users can browse books, request for books, view borrowed books, and track fines.
