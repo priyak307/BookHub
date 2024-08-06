@@ -69,3 +69,11 @@
 
 - **Admin Panel:** Log in with admin credentials to access the dashboard and manage books and users.
 - **User Features:** Users can browse books, request for books, view borrowed books, and track fines.
+
+### Preview
+
+Here is a preview video showcasing the main features of BookHub,
+<p align="center">
+  <img src="https://github.com/priyak307/BookHub/blob/master/images/preview-video.gif" alt="Screenshot 1"/>
+</p>
+
