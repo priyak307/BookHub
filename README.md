@@ -3,15 +3,22 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Preview](#preview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Preview](#preview)
 
 ## Introduction
 
 **BookHub** is a robust e-library platform designed to simplify and streamline library operations. It includes features for both users and admins, such as book requests, issuance, and fine calculations. The platform is designed with security and usability in mind, offering a seamless experience for managing library accounts and book collections.
+
+### Preview
+
+Here is a preview video showcasing the main features of BookHub,
+<p align="center">
+  <img src="https://github.com/priyak307/BookHub/blob/master/images/preview-video.gif" alt="Screenshot 1"/>
+</p>
 
 ## Features
 
@@ -69,11 +76,3 @@
 
 - **Admin Panel:** Log in with admin credentials to access the dashboard and manage books and users.
 - **User Features:** Users can browse books, request for books, view borrowed books, and track fines.
-
-### Preview
-
-Here is a preview video showcasing the main features of BookHub,
-<p align="center">
-  <img src="https://github.com/priyak307/BookHub/blob/master/images/preview-video.gif" alt="Screenshot 1"/>
-</p>
-
